@@ -20,7 +20,7 @@ const App = () => <Admin
         dashboard={DashboardTest}
         dataProvider={dataProvider}
         > 
-    <Resource name="users" list={ListGuesser} />
+    <Resource name="users" list={ListGuesser} icon={TimerIcon} />
 </Admin>;
 
 export default App;
